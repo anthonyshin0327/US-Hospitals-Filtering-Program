@@ -1,3 +1,5 @@
+# First, setwd() to your the directory of interest which contains your raw data file.csv 
+
 ###################### Part 1 ######################
 
 outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
@@ -87,23 +89,3 @@ rankall <- function(outcome, num = 1 ){
                 }
         
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
